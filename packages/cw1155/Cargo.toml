@@ -1,0 +1,13 @@
+[package]
+name = "cw1155"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+cosmwasm-schema = { workspace = true }
+cosmwasm-std    = { workspace = true }
+cw-utils        = { workspace = true }
+schemars        = { workspace = true }
+serde           = { workspace = true }
+thiserror       = { workspace = true }
